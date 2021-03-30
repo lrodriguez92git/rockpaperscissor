@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head {
+            width: 25%;
+            margin: 0 auto; 
+        }
+
+        .content {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h3 {
+            display:inline-block;
+        }
+
+        span {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="content">
+        <div id="wins">
+            <h3>Wins: </h3><span>0</span>
+        </div>
+        <div id="losses">
+            <h3>Losses: </h3><span>0</span>
+        </div>
+        <div id="ties">
+            <h3>Ties: </h3><span>0</span>
+        </div>
+    </div> 
+    <div id= "rpsButtons"> 
+        <button name="r">rock</button>
+        <button name= "p">paper</button>
+        <button name= "s">scissors</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
